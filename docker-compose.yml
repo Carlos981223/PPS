@@ -1,0 +1,46 @@
+version: '3.8'
+
+services:
+  nginx-proxy-manager:
+    image: jc21/nginx-proxy-manager:latest
+    container_name: nginx_proxy_manager
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+      - "81:81"  # Panel de administración
+    volumes:
+      - ./npm/data:/data
+      - ./npm/letsencrypt:/etc/letsencrypt
+
+  web:
+    image: nginx:latest
+    expose:
+      - "80"
+    volumes:
+      - ./html:/usr/share/nginx/html
+
+environment:
+  MYSQL_DATABASE: ${MYSQL_DATABASE}
+  MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+  MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+  MYSQL_USER: ${MYSQL_USER}
+
+services:
+  db:
+    image: mysql:5.7
+    ports:
+      - "127.0.0.1:3306:3306"  # restringe acceso solo a localhost
+
+
+logging:
+  driver: "json-file"
+  options:
+    max-size: "10m"
+    max-file: "3"
+
+
+user: 1000:1000
+
+
+

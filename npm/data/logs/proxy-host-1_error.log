@@ -1,0 +1,5 @@
+2025/05/01 15:55:18 [error] 207#207: *1208 infra_phpmyadmin_1 could not be resolved (3: Host not found), client: 172.20.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/05/01 15:58:25 [error] 219#219: *1227 infra_phpmyadmin_1 could not be resolved (3: Host not found), client: 172.20.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/05/01 15:58:26 [error] 219#219: *1227 infra_phpmyadmin_1 could not be resolved (3: Host not found), client: 172.20.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/05/01 15:59:20 [error] 218#218: *1232 infra_phpmyadmin_1 could not be resolved (3: Host not found), client: 172.20.0.1, server: localhost, request: "GET / HTTP/1.1", host: "phpmyadmin.local"
+2025/05/01 15:59:20 [error] 218#218: *1232 infra_phpmyadmin_1 could not be resolved (3: Host not found), client: 172.20.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "phpmyadmin.local", referrer: "http://phpmyadmin.local/"

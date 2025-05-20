@@ -1,0 +1,5 @@
+2025/05/01 15:46:21 [error] 186#186: *94 open() "/var/www/html/phpmyadmin" failed (2: No such file or directory), client: 172.20.0.1, server: localhost-nginx-proxy-manager, request: "GET /phpmyadmin HTTP/1.1", host: "localhost"
+2025/05/01 15:46:52 [error] 187#187: *97 open() "/var/www/html/phpmyadmin" failed (2: No such file or directory), client: 172.20.0.1, server: localhost-nginx-proxy-manager, request: "GET /phpmyadmin HTTP/1.1", host: "127.0.0.1"
+2025/05/01 15:46:53 [alert] 187#187: 512 worker_connections are not enough
+2025/05/01 15:46:53 [error] 187#187: *1157 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin"
+2025/05/01 15:55:06 [error] 206#206: *1200 open() "/var/www/html/phpmyadmin" failed (2: No such file or directory), client: 172.20.0.1, server: localhost-nginx-proxy-manager, request: "GET /phpmyadmin HTTP/1.1", host: "127.0.0.1"

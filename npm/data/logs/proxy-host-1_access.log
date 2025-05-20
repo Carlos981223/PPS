@@ -1,0 +1,5 @@
+[01/May/2025:15:55:18 +0000] - - 502 - GET http localhost "/" [Client 172.20.0.1] [Length 154] [Gzip -] [Sent-to infra_phpmyadmin_1] "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" "-"
+[01/May/2025:15:58:25 +0000] - - 502 - GET http localhost "/" [Client 172.20.0.1] [Length 154] [Gzip -] [Sent-to infra_phpmyadmin_1] "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" "-"
+[01/May/2025:15:58:26 +0000] - - 502 - GET http localhost "/" [Client 172.20.0.1] [Length 154] [Gzip -] [Sent-to infra_phpmyadmin_1] "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" "-"
+[01/May/2025:15:59:20 +0000] - - 502 - GET http phpmyadmin.local "/" [Client 172.20.0.1] [Length 154] [Gzip -] [Sent-to infra_phpmyadmin_1] "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" "-"
+[01/May/2025:15:59:20 +0000] - - 502 - GET http phpmyadmin.local "/favicon.ico" [Client 172.20.0.1] [Length 154] [Gzip -] [Sent-to infra_phpmyadmin_1] "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" "http://phpmyadmin.local/"
